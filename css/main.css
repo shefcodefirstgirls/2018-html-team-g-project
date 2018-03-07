@@ -29,6 +29,14 @@ header {
 
 
    }
+.container a {
+  color: #3366ff;
+}
+   .container  {
+     color: white ;
+     margin-top: 50%;
+     margin-bottom: 50%;
+   }
 
 .text-center {
   margin-top: 50%;
