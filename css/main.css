@@ -27,8 +27,14 @@ header {
      font-family: 'The Girl Next Door', cursive;
      padding: 10px;
 
+   }
+
+   #heading {
+     margin-top: 50px;
+
 
    }
+
 .container a {
   color: #3366ff;
 }
@@ -73,8 +79,18 @@ header {
   li .nav-item .active {
     border: 2px solid red;
     border-radius: 25px;
-   }
+}
+/* Need to fix this as there is code repetition*/
 
+
+   #wardrobe {
+     margin-top: -16%;
+
+   }
+   #diningroom {
+     margin-top: -16%;
+   }
+/*
    @media (max-width: 500px) {
      h1 {
        font-size: 36px;
@@ -97,3 +113,4 @@ header {
        display:inline;
        padding:0px 10px 0px 10px;
      }
+*/
