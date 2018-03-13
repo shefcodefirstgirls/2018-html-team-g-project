@@ -30,7 +30,7 @@ header {
    }
 
    #heading {
-     margin-top: 50px;
+     margin-top: 30px;
 
 
    }
@@ -42,8 +42,8 @@ header {
 }
    .container  {
      color: white ;
-     margin-top: 20%;
-     margin-bottom: 20%;
+     margin-top: 10%;
+     margin-bottom: 10%;
    }
 
 .text-center {
@@ -86,7 +86,7 @@ header {
 
 
    #wardrobe {
-     margin-top: -16%;
+     margin-top: 0%;
 
    }
    #diningroom {
@@ -94,7 +94,7 @@ header {
    }
    #bedroom {
      margin-top: -16%;
-     
+
    }
 /*
    @media (max-width: 500px) {
