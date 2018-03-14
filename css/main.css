@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 h1, p, ul, li, h2
 {
   text-align: center;
@@ -27,6 +28,10 @@ header {
      font-family: 'The Girl Next Door', cursive;
      padding: 10px;
 
+   }
+   p {
+     font-family: 'Indie Flower', cursive;
+     font-size: 1.75em;
    }
 
    #heading {
@@ -95,6 +100,9 @@ header {
    #bedroom {
      margin-top: -16%;
 
+   }
+   #formposition {
+     margin-left: 22%;
    }
 /*
    @media (max-width: 500px) {
