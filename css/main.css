@@ -91,7 +91,10 @@ header {
 
    }
 
-
+.navbar-toggler-icon img {
+  width: 32px;
+  height: 32px;
+}
 
 .container a {
   color: #3366ff;
