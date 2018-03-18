@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif');
 h1, p, ul, li, h2
 {
   text-align: center;
@@ -81,8 +81,8 @@ header {
 
    }
    p {
-     font-family: 'Indie Flower', cursive;
-     font-size: 1.75em;
+     font-family: 'IBM Plex Serif', 'serif';
+     font-size: 1.50em;
    }
 
    #heading {
@@ -141,7 +141,7 @@ header {
     border: 2px solid red;
     border-radius: 25px;
 }
-/* Need to fix this as there is code repetition*/
+
 
 
    #wardrobe {
@@ -202,12 +202,12 @@ header {
     text-decoration: none;
 }
 
-/* Add a hover effect if you want */
+
 .fa:hover {
     opacity: 0.7;
 }
 
-/* Set a specific color for each brand */
+
 
 /* Facebook */
 .fa-facebook {
