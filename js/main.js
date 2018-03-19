@@ -18,7 +18,7 @@ function goToWardrobe () {
   var heading = "Wardrobe";
   var text= "<p>Crisp, white satin slips down one side of a coat hanger. The number of clothes in there is enough to fill all of the pews that day. It was a white one, with sugared almonds and a pageboy, who was the godson of some distant relation of his and just as sickly sweet. You wanted it here, but his mother was already unhappy about the match.</p><p> On Sundays, you would sit in her <a href=\"#\" onclick=goToDiningRoom()> dining room </a> and match her crisp smile, both of you pretending not to notice the ring of cakes she had laid out in a ring on a paper plate. You chose a tangerine instead. <p>You would both examine your shoes, whilst she would stroke her fur collar and her Siamese stared at you from the mantelpiece. Once, you tried to align your shoes according to preference. Best at the front. But in summer, your sandals were first and in winter they were last. You let them roam towards the back and tried to forget that the seasons could change. <p>From then on, it could never be autumn. ";
 
-  var image = "<img class=\"center\" id=\"bedimage\" src=\"assets/wardrobe.png\">";
+  var image = "<img class=\"center\" id=\"bedimage\" src=\"assets/wardrobe2.png\">";
 
     document.getElementById("storyheading").innerHTML = heading;
    document.getElementById("storyparagraph").innerHTML = text;
@@ -42,8 +42,11 @@ document.getElementById("mainimage").innerHTML = image;
 function goToBedroom (){
   var heading = "Bedroom";
   var text= "<p>You wake and find that the crumpled sheets still manage to wear the ring of his waist.</p> <p> Sunlight streaks through the curtains, but it should be treated with caution. Its fingers prod at your shadow, trying to coax you down the stairs. But here, you are free to sail and you can navigate the debris. On the ground, wires hook around your toes.</p> <p> Your <a href= \"#\" onclick=goToWardrobe()>wardrobe</a> stands in the corner, forced to reflect on its sparse offerings. You could not work the door. It kept its lamppost- lit escape hidden, but its draft still circulates around your Snow Queen heart.</p> <p>  You wait for the alarm clock to buzz. You put it in the <a href=\"#\" onclick=goToBathroom()>bathroom </a>so that it did not instantly seize you from sleep. There is a bluebottle on the side table. It rubs its legs together in anticipation.</p> <p>Buzz.</p> ";
+  var image = "<img class=\"center\" id=\"bedimage\" src=\"assets/bed.png\">";
+
  document.getElementById("storyheading").innerHTML = heading;
 document.getElementById("storyparagraph").innerHTML = text;
+document.getElementById("mainimage").innerHTML = image;
 loadText();
 }
 
