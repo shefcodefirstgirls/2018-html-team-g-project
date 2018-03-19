@@ -1,4 +1,9 @@
 // Put your JavaScript code in the block below. You can remove line 3.
+$(document).ready(function() {
+  $("#bedroom p").addClass("load");
+  $("#wardrobe p").addClass("load");
+})
+
 function myFunction() {
     document.getElementById("demo").innerHTML = "Hello World";
 }
@@ -59,5 +64,3 @@ anime.timeline({loop: true})
     easing: "easeOutExpo",
     delay: 1000
   });
-
-  
