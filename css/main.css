@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 h1, p, ul, li, h2
 {
   text-align: center;
@@ -81,8 +81,8 @@ header {
 
    }
    p {
-     font-family: 'IBM Plex Serif', 'serif';
-     font-size: 1.50em;
+     font-family: 'Indie Flower', cursive;
+     font-size: 1.75em;
    }
 
    #heading {
