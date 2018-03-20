@@ -42,7 +42,7 @@ document.getElementById("mainimage").innerHTML = image;
 function goToBedroom (){
   var heading = "Bedroom";
   var text= "<p>You wake and find that the crumpled sheets still manage to wear the ring of his waist.</p> <p> Sunlight streaks through the curtains, but it should be treated with caution. Its fingers prod at your shadow, trying to coax you down the stairs. But here, you are free to sail and you can navigate the debris. On the ground, wires hook around your toes.</p> <p> Your <a href= \"#\" onclick=goToWardrobe()>wardrobe</a> stands in the corner, forced to reflect on its sparse offerings. You could not work the door. It kept its lamppost- lit escape hidden, but its draft still circulates around your Snow Queen heart.</p> <p>  You wait for the alarm clock to buzz. You put it in the <a href=\"#\" onclick=goToBathroom()>bathroom </a>so that it did not instantly seize you from sleep. There is a bluebottle on the side table. It rubs its legs together in anticipation.</p> <p>Buzz.</p> ";
-  var image = "<img class=\"center\" id=\"bedimage\" src=\"assets/bed.png\">";
+  var image = "<img class=\"center\" id=\"bedimage\" src=\"assets/bed3.png\">";
 
  document.getElementById("storyheading").innerHTML = heading;
 document.getElementById("storyparagraph").innerHTML = text;
