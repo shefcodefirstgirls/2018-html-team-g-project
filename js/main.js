@@ -18,7 +18,7 @@ function goToWardrobe () {
   var heading = "Wardrobe";
   var text= "<p>Crisp, white satin slips down one side of a coat hanger. The number of clothes in there is enough to fill all of the pews that day. It was a white one, with sugared almonds and a pageboy, who was the godson of some distant relation of his and just as sickly sweet. You wanted it here, but his mother was already unhappy about the match.</p><p> On Sundays, you would sit in her <a href=\"#\" onclick=goToDiningRoom()> dining room </a> and match her crisp smile, both of you pretending not to notice the ring of cakes she had laid out in a ring on a paper plate. You chose a tangerine instead. <p>You would both examine your shoes, whilst she would stroke her fur collar and her Siamese stared at you from the mantelpiece. Once, you tried to align your shoes according to preference. Best at the front. But in summer, your sandals were first and in winter they were last. You let them roam towards the back and tried to forget that the seasons could change. <p>From then on, it could never be autumn. ";
 
-  var image = "<img class=\"center\" id=\"bedimage\" src=\"assets/wardrobe2.png\">";
+  var image = "<img class=\"center\" id=\"bedimage\" src=\"assets/wardrobe3.png\">";
 
     document.getElementById("storyheading").innerHTML = heading;
    document.getElementById("storyparagraph").innerHTML = text;
@@ -30,7 +30,7 @@ function goToDiningRoom()
 {
   var heading = "Dining Room";
   var text= "<p>You sat at each end of the flat-pack table, which he boasted he could set up and collapse within minutes.</p><p>  He glanced at the photo that his mother gave him last Christmas. Your flimsy paper hats are frozen in film. The silver banded frame cuts into your smile and champagne glasses are held in the anticipation of a speech. He coughed, clearing his throat. Who would take Olly? He was hers. And the silver, the wedding album and the chocolate gateau at the back of the freezer?</p><p> He followed a pea on his plate and stabbed it with the end of his fork. A green globe. It was kept from rest of the plate, safe in a sphere. Its shell became wedged between his front teeth.</p> <p> You take him, you had begged, but he was insistent. I don’t like leaving you here alone. Don’t then, you had replied, but he was already packing away dinner into the dishwasher.</p> <p> He left his suitcase open. It was meant to be for holidays. His shoes crept from summer to winter in autumnal fashion. By the end of the year, all of his shoes were in his case. Piece by piece, he packed away the <a href=\"#\" onclick=goToBedroom()>bedroom.</a></p>";
-var image = "<img class=\"center\" id=\"bedimage\" src=\"assets/table.png\">";
+var image = "<img class=\"center\" id=\"bedimage\" src=\"assets/table2.png\">";
 
 
     document.getElementById("storyheading").innerHTML = heading;
